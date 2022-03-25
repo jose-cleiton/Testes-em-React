@@ -1,7 +1,7 @@
 import React from 'react-dom';
 import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from './renderWithRouter';
 import App from '../App';
 
 describe('Teste sea aplicação contém um conjunto fixo de links de navegação.', () => {
